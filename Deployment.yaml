@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: m2048
-        image: juixtu/tu-2048:$BUILD_NUMBER
+        image: juixtu/tu-2048:28
         ports:
         - name: java
           containerPort: 8080
